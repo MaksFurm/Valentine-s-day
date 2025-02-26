@@ -100,3 +100,45 @@ h2 {
   color: #cc0000;
   font-weight: bold;
 }
+
+/* Кнопка Побажань */
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: #ffdde1;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 0.5px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #d63384;
+}
+
+p {
+  font-size: 18px;
+  color: #333;
+}
+
+button {
+  background-color: #ff4d6d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #c9184a;
+}
